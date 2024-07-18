@@ -1,0 +1,9 @@
+# 하나의 문자를 인자로 받고 해당 문자에 해당하는 유니코드 정수를 반환
+result1 = ord('a')
+# 하나의 정수를 인자로 받고 해당 정수에 해당하는 유니코드 문자를 반환
+result2 = ord('ㄱ')
+# 하나의 정수를 인자로 받고 해당 정수에 해당하는 유니코드 문자를 16진수로 변환
+result3 = hex(ord('b'))
+print(f"ord('a') : {result1}")
+print(f"ord('ㄱ') : {result2}")
+print(f"hex(ord('b')) : {result3}\n")
