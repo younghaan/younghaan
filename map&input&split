@@ -1,1 +1,2 @@
+map() 함수는 iterable의 각 요소에 대해 function 함수를 적용한 결과를 새로운 iterator로 반환한다. input함수는 사용자 입력을 받는 함수이며 split함수는 띄어쓰기를 기준으로 입력을 나누어 받을 수 있다.
 a, b, c = map(int, input().split())
