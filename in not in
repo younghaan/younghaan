@@ -1,0 +1,11 @@
+# in 혹은 not in을 사용함으로써 리스트 튜플 딕셔너리에서 사용이 가능하다.
+a = [1, 2, 3, 4, 5]
+
+# if + True, False
+if 1 in a:
+    print("1 exist")
+else:
+    print("1 not exist")
+
+# True, False
+print(2 in a)
