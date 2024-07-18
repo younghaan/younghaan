@@ -1,0 +1,8 @@
+# try문으로 실행을 한 후 에러가 발생하면 exept문이 실행되며 else문까지 작성하면 성공하면 else문이 실패하면 except 문이 실행된다.
+# finally문 try절의 예외와 관계없이 상시 실행되는 절이다.
+while True:
+  try:
+    a, b = map(int,input().split())
+    print(a+b)
+  except:
+      break
