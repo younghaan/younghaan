@@ -1,0 +1,2 @@
+x, y = map(int, sys.stdin.readline().split())
+s1 = sys.stdin.readline().strip()
